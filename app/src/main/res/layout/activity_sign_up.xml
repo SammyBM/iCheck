@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SignUpActivity">
+
+
+    <ImageView
+        android:id="@+id/sign_up_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/logo_shape"
+        android:contentDescription="@string/sign_in_logo_image"
+        android:src="@mipmap/ic_launcher_foreground"
+
+        app:layout_constraintBottom_toTopOf="@+id/sign_up_name_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sign_up_welcome_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_welcome"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/sign_up_name_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_logo" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/sign_up_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/edit_text_margin"
+        android:hint="@string/sign_up_name"
+        android:inputType="text"
+        android:shadowColor="@color/ic_launcher_background"
+        android:textColor="@color/ic_launcher_background"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorHint="@color/ic_launcher_background"
+        android:textColorLink="@color/ic_launcher_background"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32"
+        app:met_baseColor="@color/ic_launcher_background"
+        app:met_errorColor="@android:color/holo_red_dark"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextColor="@color/ic_launcher_background"
+        app:met_textColor="@color/ic_launcher_background"
+        app:met_textColorHint="@color/ic_launcher_background"
+        app:met_underlineColor="@color/ic_launcher_background" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/sign_up_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/edit_text_margin"
+        android:hint="@string/sign_up_username"
+        android:inputType="text"
+        android:shadowColor="@color/ic_launcher_background"
+        android:textColor="@color/ic_launcher_background"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorHint="@color/ic_launcher_background"
+        android:textColorLink="@color/ic_launcher_background"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        app:met_baseColor="@color/ic_launcher_background"
+        app:met_errorColor="@android:color/holo_red_dark"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextColor="@color/ic_launcher_background"
+        app:met_textColor="@color/ic_launcher_background"
+        app:met_textColorHint="@color/ic_launcher_background"
+        app:met_underlineColor="@color/ic_launcher_background" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/sign_up_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/edit_text_margin"
+        android:hint="@string/sign_up_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:shadowColor="@color/ic_launcher_background"
+        android:textColor="@color/ic_launcher_background"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorHint="@color/ic_launcher_background"
+
+        android:textColorLink="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68"
+        app:met_baseColor="@color/ic_launcher_background"
+        app:met_errorColor="@android:color/holo_red_dark"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextColor="@color/ic_launcher_background"
+        app:met_textColor="@color/ic_launcher_background"
+        app:met_textColorHint="@color/ic_launcher_background"
+        app:met_underlineColor="@color/ic_launcher_background" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/sign_up_confirm_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/edit_text_margin"
+        android:hint="@string/sign_up_confirm_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:shadowColor="@color/ic_launcher_background"
+        android:textColor="@color/ic_launcher_background"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorHint="@color/ic_launcher_background"
+
+        android:textColorLink="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        app:met_baseColor="@color/ic_launcher_background"
+        app:met_errorColor="@android:color/holo_red_dark"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextColor="@color/ic_launcher_background"
+        app:met_textColor="@color/ic_launcher_background"
+        app:met_textColorHint="@color/ic_launcher_background"
+        app:met_underlineColor="@color/ic_launcher_background" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/sign_up_email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/edit_text_margin"
+        android:hint="@string/sign_up_box_email"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:shadowColor="@color/ic_launcher_background"
+        android:textColor="@color/ic_launcher_background"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorHint="@color/ic_launcher_background"
+
+        android:textColorLink="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56"
+        app:met_baseColor="@color/ic_launcher_background"
+        app:met_errorColor="@android:color/holo_red_dark"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextColor="@color/ic_launcher_background"
+        app:met_textColor="@color/ic_launcher_background"
+        app:met_textColorHint="@color/ic_launcher_background"
+        app:met_underlineColor="@color/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/sign_up_start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sign_in_button_shape"
+        android:text="@string/sign_up_button"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_confirm_password_input" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

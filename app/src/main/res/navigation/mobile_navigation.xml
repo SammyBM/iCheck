@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_shoppingList"
+        android:name="fragments.ShoppingListFragment"
+        android:label="@string/menu_shopping_list"
+        tools:layout="@layout/fragment_shopping_list"/>
+
+    <fragment
+        android:id="@+id/nav_purchases"
+        android:name="fragments.PurchasesFragment"
+        android:label="@string/menu_purchases"
+        tools:layout="@layout/fragment_purchases"/>
+
+    <fragment
+        android:id="@+id/nav_favourites"
+        android:name="fragments.FavouritesFragment"
+        android:label="@string/menu_favourites"
+        tools:layout="@layout/fragment_favourites"/>
+
+    <fragment
+        android:id="@+id/nav_cupboard"
+        android:name="fragments.CupboardFragment"
+        android:label="@string/menu_cupboard"
+        tools:layout="@layout/fragment_cupboard"/>
+
+    <fragment
+        android:id="@+id/nav_logOut"
+        android:name="fragments.LogoutFragment"/>
+
+</navigation>

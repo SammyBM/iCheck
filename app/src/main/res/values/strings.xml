@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">ICheck</string>
+    <string name="sign_in_label">Welcome to ICheck</string>
+    <string name="sign_in_username">Username</string>
+    <string name="sign_in_password">Password</string>
+    <string name="sign_in_logo_image">logo</string>
+    <string name="sign_in_start">Sign in</string>
+    <string name="sign_in_create_message">Join ICheck, lets create an account</string>
+    <string name="sign_in_create">Create account</string>
+    <string name="forget_password_message">Do you forgot your password? click here</string>
+    <string name="sign_up_welcome">We love to have new members</string>
+    <string name="sign_up_username">Enter a username</string>
+    <string name="sign_up_password">Enter a password</string>
+    <string name="sign_up_confirm_password">Confirm password</string>
+    <string name="sign_up_button">Sign up</string>
+    <string name="forgot_password_text">Forgot password?</string>
+    <string name="email_forgot_password">Please tell us ur email</string>
+    <string name="recover_password">Recover</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_shopping_list">"Shopping list "</string>
+    <string name="menu_purchases">Purchases</string>
+    <string name="menu_favourites">Favourites</string>
+    <string name="menu_cupboard">Cupboard</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_header_desc">logo</string>
+    <string name="nav_header_title">ICheck</string>
+    <string name="nav_header_subtitle">Welcome to menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="sign_up_box_email">Enter your email</string>
+    <string name="sign_up_name">Enter your name</string>
+    <string name="action_remainders">Remainders</string>
+    <string name="what_do_you_want_to_do_now">What do you want to do now?</string>
+    <string name="shopping_list_home_def">New List</string>
+    <string name="purchases_def_home">Purchases</string>
+    <string name="favourites_def_home">Favourites</string>
+    <string name="cupboard_def_home">Cupboard</string>
+    <string name="omg">OMG!</string>
+    <string name="empty_list_label">You do not have reminders \n Come back later!</string>
+    <string name="urgent_label">Urgent!</string>
+    <string name="example_remainder">Remainder 1</string>
+    <string name="setting_label_example">How can we help you,</string>
+    <string name="AccountLabel">Account</string>
+    <string name="AppearanceLabel">Appearance</string>
+    <string name="HelpLabel">Help</string>
+    <string name="confirm_label">confirm</string>
+    <string name="purchases_logo">Purchases Logo</string>
+    <string name="image_item_purchase">Image Item Purchase</string>
+    <string name="item_shop_example">Shop Example</string>
+    <string name="date_example">Date Example</string>
+    <string name="total_example">Total Example</string>
+</resources>

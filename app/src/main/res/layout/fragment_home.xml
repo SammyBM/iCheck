@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/TextViewWelcomeHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hello, "
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1" />
+
+        <TextView
+            android:id="@+id/TextViewWelcomeNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/what_do_you_want_to_do_now"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <ImageView
+            android:id="@+id/ImageButtonShopping"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/item_home_shape"
+            android:src="@drawable/ic_menu_shopping_list"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/TextViewDefShopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shopping_list_home_def"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ImageButtonShopping"
+            app:layout_constraintStart_toStartOf="@+id/ImageButtonShopping"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButtonShopping"
+            app:layout_constraintVertical_bias="0.08" />
+
+        <ImageView
+            android:id="@+id/ImageButtonPurchases"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/item_home_shape"
+            android:src="@drawable/ic_menu_purchase"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TextViewDefPurchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/purchases_def_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ImageButtonPurchases"
+            app:layout_constraintStart_toStartOf="@+id/ImageButtonPurchases"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButtonPurchases"
+            app:layout_constraintVertical_bias="0.04" />
+
+        <ImageView
+            android:id="@+id/ImageButtonFavourites"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/item_home_shape"
+            android:src="@drawable/ic_menu_favourites"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TextViewDefFavourites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favourites_def_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ImageButtonFavourites"
+            app:layout_constraintStart_toStartOf="@+id/ImageButtonFavourites"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButtonFavourites"
+            app:layout_constraintVertical_bias="0.04" />
+
+        <ImageView
+            android:id="@+id/ImageButtonCupboard"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/item_home_shape"
+            android:src="@drawable/ic_menu_cupboard"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/TextViewDefCupboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cupboard_def_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ImageButtonCupboard"
+            app:layout_constraintStart_toStartOf="@+id/ImageButtonCupboard"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButtonCupboard"
+            app:layout_constraintVertical_bias="0.08" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
